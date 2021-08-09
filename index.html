@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+	<form id="adaCadastro">
+		<h1>Cadastro contato</h1>
+		<ul>
+			<div class="modal" id="modal">
+				<div class ="modal-content">
+					<form id="form" class="modal-form">
+					<div>
+						<label for="txtNome">Nome</label>
+						<input type="text" id="txtNome"placeholder="Exemplo: Joao Macedo..."/>
+						<label for="txtTelefone">Telefone</label>
+						<input type="text" id="txtTelefone" placeholder="(xx)xx-xx-xx-xx"/>
+						<label for="txtOperadora">Operadora</label>
+						<input type="text" id="txtOperadora"placeholder="claro, vivo ...."/>
+					</div>
+					</form>
+					<footer class="medal-footer">
+						<button id="salvar" class="button">Salvar</button>
+					</footer>
+				</div>
+			</div>		
+		</ul>
+	</form>
+	
+	<table id="tblListar">
+	</table>
+</body>
+</html>
