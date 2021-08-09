@@ -1,0 +1,99 @@
+﻿*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+	font-family:Tahoma;
+	background-image: linear-gradient(-90deg, #c9acdd, #3e0863);
+}
+form{
+	background-image: linear-gradient(-90deg, #07810b, #4CAF50);
+	max-width:500px;
+	width:70%;
+	padding:20px;
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	transform: translate(-50%,-50%);
+	border-radius: 2%;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul input[type = "text"]{
+	width: 100%;
+	height: 45px;
+	border: 1px solid #ccc;
+	padding-left: 10px;
+	margin: 10px 0;
+}
+ul input[type="submit"]{
+	width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: #5f7c8a;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+ul label{
+	margin-left: 20px;
+	color: white	;
+	font-weight: bold;
+}
+
+
+.button {
+	
+	border-style: none;
+	height: 40px;
+	padding: 6px 12px;
+	background-color: black;
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: box-shadow .6s ease;
+	background-image: linear-gradient(-90deg, #c9acdd, #3e0863);	
+	
+}
+#adaCadastro{
+	margin-left: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+#tblListar{
+	background-color: beige;
+	max-width: 500px;
+	width: 80%;
+	padding: 10px;
+	position: absolute;
+	left: 65%;
+	top: 15%;
+	border-collapse: collapse;
+	border-radius: 20px;
+	
+}
+#tblListar th, td {
+	background-image: linear-gradient(-90deg, #07810b, #4CAF50);
+    color: white;
+	text-align: left;
+    padding: 8px;
+}
+
+#tblListar tr{
+	font-family:Tahoma;
+	background-color: #f2f2f2;
+	border: 1px solid black;;
+	border-radius: 20px;
+}
+th {
+    background-image: linear-gradient(-90deg, #07810b, #4CAF50);
+    color: white;
+}
+
+#tblListar thead{
+	background:beige;
+	border-radius: 20px;
+}
