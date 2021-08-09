@@ -1,2 +1,2 @@
 # Agenda-Telefonica-em-JS
-Agenda Telefônica, utilizando JS, CSS e HTML.
+Agenda Telefônica Simples, utilizando JS, CSS e HTML.
